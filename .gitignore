@@ -1,9 +1,10 @@
 *.swp
 .DS_Store
+.sass-cache/
 .vagrant
-nohup.out
-node_modules/
 logs/*.log
+node_modules/
+nohup.out
 pids/*.pid
 sockets/*.socket
 tags
