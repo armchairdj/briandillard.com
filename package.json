@@ -14,5 +14,12 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "ejs": "~0.8.5"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-changed": "~0.3.0",
+    "gulp-cached": "~0.0.3",
+    "gulp-newer": "~0.3.0",
+    "gulp-remember": "~0.2.0"
   }
 }
