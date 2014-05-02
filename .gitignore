@@ -1,0 +1,9 @@
+*.swp
+.DS_Store
+.vagrant
+nohup.out
+node_modules/
+logs/*.log
+pids/*.pid
+sockets/*.socket
+tags

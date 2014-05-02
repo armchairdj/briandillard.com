@@ -1,0 +1,9 @@
+{
+  "name": "briandillard.com",
+  "description": "personal website for Brian J. Dillard",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  }
+}
