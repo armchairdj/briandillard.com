@@ -10,7 +10,6 @@ var bodyParser     = require('body-parser');
 /* App bootstrapping */
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 
 var port = process.env.PORT || 1229;
 
@@ -33,7 +32,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
