@@ -9,7 +9,7 @@ var bodyParser     = require('body-parser');
 
 /* App bootstrapping */
 
-var routes = require('./routes/index');
+var routes = require('./app/controllers/index');
 
 var port = process.env.PORT || 1229;
 
@@ -21,7 +21,7 @@ var server = app.listen(port, function() {
 
 /* View engine */
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'app', 'views'));
 app.set('view engine', 'ejs');
 
 app.use(favicon());
