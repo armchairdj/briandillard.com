@@ -12,9 +12,11 @@ var bodyParser     = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var port = process.env.PORT || 1229;
+
 var app = express();
 
-var server = app.listen(1229, function() {
+var server = app.listen(port, function() {
   console.log('Listening on port %d', server.address().port);
 });
 
