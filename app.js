@@ -9,7 +9,7 @@ var bodyParser     = require('body-parser');
 
 /* App bootstrapping */
 
-var routes = require('./app/controllers/index');
+var routes = require('./app/controllers/content');
 
 var port = process.env.PORT || 1229;
 
